@@ -1,0 +1,70 @@
+package Lesson2;
+
+public class Lesson2Homework {
+    public static void main(String[] args) {
+
+        int a = 1000;
+        int b = 500;
+        int discount = 100;
+        int total = a + b - discount;
+        System.out.println("Total:" + total);
+        System.out.println("Discount:" + discount);
+
+        byte myByte = 126;
+        int myInt = 50000;
+        boolean myBoolean = true;
+        short myShort = 10000;
+        long myLong = 70000527;
+        System.out.println("myByte = " + myByte);
+        System.out.println("myInt = " + myInt);
+        System.out.println("myBoolean = " + myBoolean);
+        System.out.println("myShort = " + myShort);
+        System.out.println("myLong = " + myLong);
+
+        int i0 = 0;
+        int i1 = 1;
+        int i2 = 2;
+        int i3 = 3;
+        int i4 = 4;
+        int i5 = 5;
+        int i6 = 6;
+        int i7 = 7;
+        int i8 = 8;
+        int i9 = 9;
+        int sum = (i0 + i1 + i2 + i3+ i4 + i5 + i6 +i7 +i8 +i9);
+        int average = sum / 10;
+        System.out.println("sum:  " + sum);
+        System.out.println("average; " + average);
+
+        double averageDouble = sum / 10.0;
+        System.out.println("averageDouble; " + averageDouble);
+
+        int initial= 1250;
+        double percent= 1 + 3.5/100;
+        double totalPercent = percent * percent * percent * percent * percent;
+        System.out.println("final result: " + initial*totalPercent);
+
+        int s = 347; // 3*100 + 4*10 + 7
+        int d1 = s/ 100; // 3
+        int d2 = (s - d1 * 100) / 10; // 4
+        int d3 = (s - d1 * 100 - d2 * 10); // 7
+        System.out.println("первая: " + d1 + ", вторая: " + d2 + ", третья:  " + d3);
+
+
+C:\Users\User\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\lib\idea_rt.jar=53105:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\User\IdeaProjects\Telran220124\target\classes Lesson2.Lesson2Homework
+Total:1400
+Discount:100
+myByte = 126
+myInt = 50000
+myBoolean = true
+myShort = 10000
+myLong = 70000527
+sum:  45
+average; 4
+averageDouble; 4.5
+final result: 1484.607882058593
+первая: 3, вторая: 4, третья:  7
+
+Process finished with exit code 0
+
+
